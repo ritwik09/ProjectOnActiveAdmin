@@ -12,7 +12,7 @@ ActiveAdmin.register School do
 #   permitted
 # end
 
-permit_params :name
+permit_params :name, :school_address
 
 
 end
