@@ -12,6 +12,6 @@ ActiveAdmin.register Student do
 #   permitted
 # end
 
-permit_params :name, :student_number
+permit_params :name, :student_number, :school_id
 
 end
